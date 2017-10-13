@@ -1,0 +1,21 @@
+{
+  "name": "ddns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "named": "git+https://github.com/Lab21k/node-named.git",
+    "node-named": "https://github.com/Lab21k/node-named.git#master",
+    "redis": "^2.8.0",
+    "redis-server": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
