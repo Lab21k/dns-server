@@ -17,7 +17,9 @@ redisClient.hgetall('peers', (err, peers) => {
         process.exit(1)
     }
 
-    boxes = peers
+    if (peers) {
+        boxes = peers
+    }
 })
 
 dnsServer.on('query', (query) => {
