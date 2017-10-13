@@ -1,6 +1,6 @@
 # Dynamic nameserver
 
-You can entries via a HTTP endpoint.
+You can add entries via a HTTP endpoint.
 
 
 ## Running
