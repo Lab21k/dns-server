@@ -7,7 +7,9 @@ let express = require('express')
 let dnsServer = named.createServer();
 let bodyParser = require('body-parser')
 
-dnsServer.listen(53, '127.0.0.1', () => {
+let listen = process.env.LISTEN_IP || '127.0.0.1'
+
+dnsServer.listen(53, listen, () => {
     console.log('DNS server started on port 53');
 })
 
