@@ -56,4 +56,8 @@ app.post('/box_update', (req, res) => {
     })
 })
 
+app.get('/dns/centrals', (req, res) => {
+    res.send(boxes)
+})
+
 app.listen(1337)
